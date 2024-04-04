@@ -1,7 +1,14 @@
-const List = () => {
+import ListItem from "./ListItem";
+
+const List = ({ items }) => {
     return (
         <ul>
-            <h2>list</h2>List
+            {items.map((item) => (
+                <ListItem
+                    key={item.id} // ID from API
+                    item={item}
+                />
+            ))}
         </ul>
     );
 };

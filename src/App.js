@@ -28,8 +28,10 @@ function App() {
                 requestType={requestType}
                 setRequestType={setRequestType}
             />
-            <List />
+            <List items={items} />
         </div>
     );
 }
 export default App;
+
+// Chapt 15
