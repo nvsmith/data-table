@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import Header from "./Header";
 import Form from "./Form";
 // import List from "./List";
 import Table from "./Table";
@@ -25,10 +26,8 @@ function App() {
 
     return (
         <div className="App">
-            <Form
-                requestType={requestType}
-                setRequestType={setRequestType}
-            />
+            <Header />
+            <Form requestType={requestType} setRequestType={setRequestType} />
             {/* <List items={items} /> */}
             <Table items={items} />
         </div>

@@ -2,7 +2,7 @@
 
 # Data Table
 
-<a href="https://tecnate.dev" target="_blank" rel="author">Tecnate</a> | Last Updated: 2024.05.29
+<a href="https://tecnate.dev" target="_blank" rel="author">Tecnate</a> | Last Updated: 2024-06-20
 
 <!-- TABLE OF CONTENTS -->
 <details>
