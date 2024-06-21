@@ -15,6 +15,11 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+#sticky-container {
+    position: sticky;
+    top: 0;
+}
+
 header {
     background-color: #124212;
     color: #fff;
@@ -45,15 +50,23 @@ form {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* position: fixed; */
+    background-color: #fff;
+    border-bottom: 3px solid #6e56a0;
 }
 
 button {
-    width: 150px;
-    padding: 0.5rem;
+    background-color: transparent;
+    border-radius: 30px;
+    border: 1px solid #6e56a0;
     font-size: 1rem;
     margin: 0.5rem;
+    min-width: 200px;
+    padding: 1.5rem;
     text-transform: capitalize;
+}
+
+button:hover {
+    background-color: #cbbde8;
 }
 
 button.selected {
@@ -72,7 +85,7 @@ li {
 .table-container {
     width: 100%;
     overflow-y: auto;
-    /* padding-top: 52px; */
+    margin-bottom: 4rem;
 }
 
 td {

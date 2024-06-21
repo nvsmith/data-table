@@ -26,8 +26,13 @@ function App() {
 
     return (
         <div className="App">
-            <Header />
-            <Form requestType={requestType} setRequestType={setRequestType} />
+            <div id="sticky-container">
+                <Header />
+                <Form
+                    requestType={requestType}
+                    setRequestType={setRequestType}
+                />
+            </div>
             {/* <List items={items} /> */}
             <Table items={items} />
         </div>
